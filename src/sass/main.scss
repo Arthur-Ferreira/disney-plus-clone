@@ -1,4 +1,5 @@
-@import '_vars';
+@use './vars';
+@use './hero';
 
 * {
   margin: 0;
@@ -7,34 +8,35 @@
 }
 
 body {
-  background-color: _vars.$body-background-color;
+  background-color: vars.$body-background-color;
 }
 
 .text {
-  @include text;
+  @include vars.text;
 }
 
 .text--small {
-  @include text(12px);
+  @include vars.text(12px);
 }
 
 .text--big {
-  @include text(18px);
+  @include vars.text(18px);
 }
 
 .title {
-  @include title;
+  @include vars.title;
 }
 
 .title--small {
-  @include title(28px);
+  @include vars.title(28px);
 }
 
 .title--big {
-  @include title(44px);
+  @include vars.title(44px);
 }
 
 .link-text {
-  @include text(18px);
-  color: _vars.$light-text-color;
+  @include vars.text(18px);
+  color: vars.$light-text-color;
+  text-decoration: underline;
 }
