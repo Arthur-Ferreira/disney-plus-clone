@@ -40,3 +40,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [SASS](https://sass-lang.com/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Gulp](https://gulpjs.com/)

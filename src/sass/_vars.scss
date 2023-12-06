@@ -1,15 +1,22 @@
+// Background colors
 $body-background-color: #040714;
+$dark-background-color: #000;
 $button-background-color: #6421ff;
+$button-background-color-hover: #0063e5;
 
+
+// Text colors
 $primary-text-color: silver;
 $light-text-color: #f9f9f9;
 
+// Text Mixin
 @mixin text($fontSize: 16px) {
   font-size: $fontSize;
   line-height: $fontSize + 10px;
   color: $primary-text-color;
 }
 
+// Title Mixin
 @mixin title($fontSize: 40px) {
   @include text($fontSize);
   color: $light-text-color;
